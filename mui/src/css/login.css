@@ -1,0 +1,62 @@
+#loginbtn,#signupbtn{
+    height: 50px;
+    width: 120px;
+    border-radius: 7px;
+    border: .5px solid rgb(251, 251, 251);
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Loinform{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 5%;
+  background-color: rgba(211, 205, 205, 0.5); 
+  backdrop-filter: blur(2px);
+  margin: auto;
+  z-index: 1px;
+  margin-top: 13%;
+}
+.center{
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  margin: -50px 0 0 -50px;
+}
+.header>h1{
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 29px;
+    font-weight: 600;
+    margin-top: -130px;
+    font-variant: .2px;
+    color: rgba(234, 240, 246, 0.8);
+    text-align: center;
+}
+.popup{
+    height: 50px;
+    width: 150px;
+    color: white;
+    
+    font-family:serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    margin-right: 270px;
+    margin-top: -250px;
+    border-radius: 10px;
+    border: none;
+}
+.popup>#tri{
+    height: 3px;
+    width: 20px;
+    background-color: black;
+    margin-left: -40px;
+}
+
